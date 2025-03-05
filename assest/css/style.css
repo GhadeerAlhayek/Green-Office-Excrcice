@@ -1,0 +1,59 @@
+header {
+    background-color: #b8cb21;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logoPhoto {
+    height: auto;
+    align-items: center; 
+}
+
+
+#navHeaderButtoms  {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    margin: 40px;
+}
+
+.h1aboutus {
+    font-size: 18px;
+    text-align: center;
+}
+
+.firstContent h2 {
+    font-family: "Oswald";
+}
+
+.button {
+    display: inline-block;
+    padding:  16px;
+    background-color: #b8cb21;
+    font-size: 16px; 
+    float: right;
+}
+
+#hihi {
+    float: left;
+}
+
+#firstContentPhoto {
+    float: left;
+}
+
+#secondContentPhoto {
+    float: left;
+}
+
+.firstContent h2::before { 
+    font-family: "FontAwesome";
+     content: "\f18c";
+}
+ 
+.secondContent h2::before { 
+    font-family: "FontAwesome";
+     content: "\f18c";
+}
